@@ -6,5 +6,9 @@ print(motorcycles)
 print("Eliminando o primeiro elemento:")
 del motorcycles[0]
 print(motorcycles)
+print("Eliminando o segundo elemento:")
+del motorcycles[1]
+print(motorcycles)
+print("O elemento eliminado não pode ser mais acessado.")
 
 print("\n")
