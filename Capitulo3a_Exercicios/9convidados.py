@@ -4,7 +4,7 @@ print("3.9 - Convidados para o jantar: Trabalhando com um dos programas dos " \
 "\nmensagem informando o número de pessoa que você está convidando" \
 "\npara o jantar.")
 
-"""Obs: Para concatenar string e número"""
+"""Obs: Para concatenar string e número foi usado print(f"... {len()}...)"""
 
 convidados = ['D. Pedro II', 'Machado de Assis', 'Teodósia']
 
