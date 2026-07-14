@@ -1,4 +1,4 @@
-print("n12 de julho de 2026. Segunda-feira. Noite fria")
+print("n13 de julho de 2026. Segunda-feira. Noite fria")
 print("4.2 - Animais: Pense em pelo menos três animais diferentes que tenham uma" \
 "\ncaracterística em comum. Armazene os nomes desses animais em uma lista e," \
 "\nentão, utilize um laço for para exibir o nome de cada animal")

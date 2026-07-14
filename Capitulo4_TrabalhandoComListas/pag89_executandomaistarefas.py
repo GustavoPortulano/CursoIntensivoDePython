@@ -1,4 +1,4 @@
-print("\n12 de julho de 2026. Segunda-feria. Noite fria.")
+print("\n13 de julho de 2026. Segunda-feria. Noite fria.")
 print("Página 89 - Executando mais tarefas em um laço for.")
 print("\n")
 magicians = ['alice','david','carolina']
