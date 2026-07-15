@@ -4,6 +4,7 @@ print("4.5 - Somando um milhão: Crie uma lista de números de um a um milhão e
 "\num e termina em um milhão. Além disso, utilize sum para ver a repidez com que" \
 "\nPython é capaz de somar um milhão de números." )
 print("\n")
+print("O computador trava com uma lista numérica grande.")
 numeros = list(range(1, 1001))
 print(numeros)
 print(f"O menor número é {min(numeros)}.")
