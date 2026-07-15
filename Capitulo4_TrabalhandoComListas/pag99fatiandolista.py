@@ -1,0 +1,17 @@
+print("\n15 de julho de 2026. Quarta-feria. Madrugada fria.")
+print("Página 99 - Fatiando uma lista.")
+
+players = ['charles','martina','michel','florence','eli']
+print(players)
+print("\n")
+print("Exibe os três primeiros nomes:")
+print(players[0:3])
+print("Exibe o segundo ao quarto jogadores:")
+print(players[1:4])
+print("Omitindo o primeiro índice:")
+print(players[:4])
+print("Omitindo o último índice:")
+print(players[3:])
+print("Índice negativo: apresenta os elementos a partir do último:")
+print("Exibindo o terceiro elemento a partir do último:7")
+print(players[-3])
