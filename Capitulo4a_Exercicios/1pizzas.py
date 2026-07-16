@@ -14,6 +14,7 @@ print("\nModifique seu laço for para mostar uma frase usando o nome da pizza em
 "\nna saída contendo uma frase simples como Gosto de pizza de pepperoni.")
 print("\n")
 for pizza in pizzas:
-    print("Gosto muito de comer pizza de " + pizza + " à noite com minhas filhas e esposa.")
+    print("Gosto muito de comer pizza de " + pizza + " à noite com minhas filhas "
+    "\ne esposa.")
 
 
