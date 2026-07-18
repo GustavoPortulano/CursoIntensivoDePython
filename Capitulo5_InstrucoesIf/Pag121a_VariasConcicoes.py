@@ -1,0 +1,16 @@
+print("\n17 de julho de 2026. Sexta-feira. Noite muito fria.")
+print("Página 121 - Testando várias condições.")
+print("Usando uma série de instruções if simples.")
+print("\n")
+
+requested_toppings = ['mushrooms','extra cheese']
+if 'mushrooms' in requested_toppings:
+    print("Adding mushrooms.")
+if 'pepperone' in requested_toppings:
+    print("Adding pepperoni.")
+if 'extra cheese' in requested_toppings:
+    print("Adding extra cheese.")
+print("\nFinished making your pizza")
+
+print("\n")
+
