@@ -14,11 +14,17 @@ print("5.6 - Estágios da vida: Escreva uma cadeia if-elif-else que determine o"
 print("\n")
 
 # Variável
-age = 4
+age = 70
 
 if 2 <= age < 4:
     print(f"Sua idade é de {age} anos. Você é uma criança.")
 elif 4 <= age < 13:
     print(f"Sua idade é de {age} anos. Você é um(a) garoto(a).")
+elif 13 <= age < 20:
+    print(f"Sua idade é de {age} anos. Você é um(a) adolescente.")
+elif 20 <= age < 65:
+    print(f"Sua idade é de {age} anos. Você é um adulto(a).")
+else:
+    print(f"Sua idade é de {age} anos. Você é um(a) idoso(a).\n")
 
 
