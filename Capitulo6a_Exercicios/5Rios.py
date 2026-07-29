@@ -5,3 +5,21 @@ print("6.5 - Rios: Crie um dicionário que contenha três rios importantes e " \
 "\npara o Egito." \
 "\n\t * Use um laço para exibir o nome de cada rio incluído no dicionário." \
 "\n\t * Use um laço para exibir o nome de cada país incluído no dicionário.")
+
+rios = {'amazonas':'brasil','amarelo':'china','tigre':'iraque', }
+
+for rio in rios.keys():
+    if rio == 'amazonas':
+        print("O rio " + rio.title() + " é o mais caudaloso do mundo!")
+    elif rio == 'amarelo':
+        print("A usina de Três Gargantas está no rio " + rio.title() + ".")
+    else:
+        print("As mais antigas civilizações estavam às margens do rio " + rio.title() + ".")
+
+    print("\nRios exibidos no dicionário:")
+    for rio in rios.keys():
+        print(rio.title())
+
+    print("\nPaíses exibidos no dicionário:")
+    for rio in rios.values():
+        print(rio.title())
