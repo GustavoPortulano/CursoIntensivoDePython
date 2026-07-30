@@ -1,0 +1,17 @@
+print("\n29 de julho de 2026. Noite fria.")
+print("Página 144 - Informações aninhadas. Uma lista de dicionários.")
+print("\n")
+
+"""Dicionários"""
+alien_0 = {'color':'green','points':5, }
+alien_1 = {'color':'yellow','points':10, }
+alien_2 = {'color':'red','points':15, }
+
+"""Lista contendo dicionários"""
+aliens = [alien_0,alien_1, alien_2]
+
+for alien in aliens:
+    print(alien)
+
+print("\n")
+
