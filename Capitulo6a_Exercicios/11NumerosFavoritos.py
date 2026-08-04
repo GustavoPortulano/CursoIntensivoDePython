@@ -1,6 +1,6 @@
 print("\n30 de julho de 2026. Quinta-feira. Noite fria.")
 print("6.11 - Cidades: Crie um dicionário chamado cities. Use os nomes de três" \
-"\ncidades como chaves em seu diciionário. Crie um cidionário com informações" \
+"\ncidades como chaves em seu dicionário. Crie um dicionário com informações" \
 "sobre cada cidade e inclua o país em que a cidade está localizada, a população" \
 "\naproxixmada e um fato sobre essa cidade. As chaves do dicionário de cada cidade" \
 "\ne todas as informações como country, population e fact. Apresente o nome de cada" \

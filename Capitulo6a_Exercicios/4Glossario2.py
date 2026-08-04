@@ -27,4 +27,5 @@ glossario = {'FALSE':'Representa um valor booleano de falso. Essa palavra é usa
 
 for palavra in glossario.items():
     print(palavra)
+    print("\n")
     
