@@ -8,7 +8,24 @@ print("6.11 - Cidades: Crie um dicionário chamado cities. Use os nomes de três
 
 print("\n")
 
-cities = {'isntabul':{'country':'turquia','population':5000000,'fact':'antiga capital bizantina',},
-          'rio de janeiro':{'country':'brasil','population':65000000,'fact':'antiga capital imperial do brasil'},
-          'jerusalem':{'country':'israel','population':2300000,'fact':'disputada por três religiões'}}
-          
+cities = {'isntabul':{'country':'turquia',
+            'population':'5 milhões',
+            'fact':'antiga capital bizantina e otomana'},
+          'rio de janeiro':{'country':'brasil',
+            'population':'5 milhões e 500 mil',
+            'fact':'antiga capital imperial do Brasil'},
+          'jerusalem':{'country':'israel',
+            'population':'2 milhões e 300 mil de habitantes',
+            'fact':'cidade disputada por três religiões'}}
+
+for cidade, fatos in cities.items():
+    country     = fatos['country']
+    population  = fatos['population']
+    fact        = fatos['fact']
+    print(cidade.title())
+    print(f"País: {country.title() + ";"}"      + 
+          f"\nPopulação: {population}" + ";"    +
+          f"\nFato: {fact}." + "\n.............")
+   
+
+    
