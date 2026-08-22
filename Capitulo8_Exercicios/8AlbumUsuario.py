@@ -13,8 +13,6 @@ def make_album(n_artista, n_album, nr_faixas=''):
         """Se a condiconal não for atendica, o dicionário será mantido."""
         album
     return album
-artista = make_album('cabeça de dinossauro', 'titãns', nr_faixas=11)
-print(artista)
 
 while True:
     print("Digite o nome do artista: ")
