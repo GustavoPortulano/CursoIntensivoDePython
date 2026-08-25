@@ -1,5 +1,5 @@
 print("\n22 de agosto de 2026. Sábado. Noite fria.")
-print("Página 184 - Modificando uma lista em uma função.")
+print("Página 184 - Modificando uma lista em uma função.\n")
 
 def print_models(unprinted_designs, completed_models):
     """Simula a impressão de cada design, até que não haja mais nenhum.
@@ -15,10 +15,15 @@ def show_completed_models(completed_models):
     print("\nThe following models have been printed: ")
     for completed_model in completed_models:
         print(completed_model)
-        unprinted_designs = ['iphone case','robot pendant','dodecahedron']
-        completed_models = []
-        print_models(unprinted_designs, completed_models)
-        show_completed_models(completed_models)
+
+"""Estas chamadas de funções devem estar fora do escopo da função final."""  
+unprinted_designs = ['iphone case','robot pendant','dodecahedron']
+completed_models = []
+print_models(unprinted_designs, completed_models)
+show_completed_models(completed_models)
+print(completed_models)
+
+
         
 
 
